@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		8E9DC7D929900B7700E23CCA /* JMapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7D829900B7700E23CCA /* JMapsApp.swift */; };
-		8E9DC7DB29900B7700E23CCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7DA29900B7700E23CCA /* ContentView.swift */; };
+		8E9DC7DB29900B7700E23CCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7DA29900B7700E23CCA /* MainView.swift */; };
 		8E9DC7DD29900B7900E23CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DC7DC29900B7900E23CCA /* Assets.xcassets */; };
 		8E9DC7E029900B7900E23CCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DC7DF29900B7900E23CCA /* Preview Assets.xcassets */; };
 		8E9DC7EA29900B7900E23CCA /* JMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7E929900B7900E23CCA /* JMapsTests.swift */; };
 		8E9DC7F429900B7900E23CCA /* JMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7F329900B7900E23CCA /* JMapsUITests.swift */; };
 		8E9DC7F629900B7900E23CCA /* JMapsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7F529900B7900E23CCA /* JMapsUITestsLaunchTests.swift */; };
+		8E9DC80329900EA900E23CCA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC80229900EA900E23CCA /* NetworkService.swift */; };
+		8E9DC80729900EDC00E23CCA /* UISheetPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC80629900EDC00E23CCA /* UISheetPresentation.swift */; };
+		8E9DC80929900F1600E23CCA /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC80829900F1600E23CCA /* LocationViewModel.swift */; };
+		8E9DC81129900F9A00E23CCA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC81029900F9A00E23CCA /* MapView.swift */; };
+		8E9DC8162990100400E23CCA /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC8152990100400E23CCA /* Maps.swift */; };
+		8E9DC8192990104400E23CCA /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC8182990104400E23CCA /* PlaceAnnotationView.swift */; };
+		8E9DC81C299010B700E23CCA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC81B299010B700E23CCA /* Item.swift */; };
+		8E9DC81E299010CB00E23CCA /* DataExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC81D299010CB00E23CCA /* DataExample.swift */; };
+		8E9DC8212990113D00E23CCA /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC8202990113D00E23CCA /* MainVM.swift */; };
+		8E9DC8232990118F00E23CCA /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC8222990118F00E23CCA /* ItemView.swift */; };
+		8E9DC8262990122000E23CCA /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC8252990122000E23CCA /* ViewExtension.swift */; };
+		8E9DC829299013A800E23CCA /* CustomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC828299013A800E23CCA /* CustomNavigation.swift */; };
+		8E9DC82B299021E400E23CCA /* SheetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC82A299021E400E23CCA /* SheetInfo.swift */; };
+		8E9DC82E29902E4900E23CCA /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC82D29902E4900E23CCA /* TextStyle.swift */; };
+		8E9DC83029902F3200E23CCA /* ImgStadium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC82F29902F3200E23CCA /* ImgStadium.swift */; };
+		8E9DC83329903CC100E23CCA /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DC83229903CC100E23CCA /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +52,7 @@
 /* Begin PBXFileReference section */
 		8E9DC7D529900B7700E23CCA /* JMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9DC7D829900B7700E23CCA /* JMapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMapsApp.swift; sourceTree = "<group>"; };
-		8E9DC7DA29900B7700E23CCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E9DC7DA29900B7700E23CCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8E9DC7DC29900B7900E23CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E9DC7DF29900B7900E23CCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E9DC7E529900B7900E23CCA /* JMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +60,22 @@
 		8E9DC7EF29900B7900E23CCA /* JMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9DC7F329900B7900E23CCA /* JMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMapsUITests.swift; sourceTree = "<group>"; };
 		8E9DC7F529900B7900E23CCA /* JMapsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMapsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E9DC80229900EA900E23CCA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8E9DC80629900EDC00E23CCA /* UISheetPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISheetPresentation.swift; sourceTree = "<group>"; };
+		8E9DC80829900F1600E23CCA /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		8E9DC81029900F9A00E23CCA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = JMaps/MapView.swift; sourceTree = SOURCE_ROOT; };
+		8E9DC8152990100400E23CCA /* Maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
+		8E9DC8182990104400E23CCA /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
+		8E9DC81B299010B700E23CCA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8E9DC81D299010CB00E23CCA /* DataExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExample.swift; sourceTree = "<group>"; };
+		8E9DC8202990113D00E23CCA /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		8E9DC8222990118F00E23CCA /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		8E9DC8252990122000E23CCA /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		8E9DC828299013A800E23CCA /* CustomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
+		8E9DC82A299021E400E23CCA /* SheetInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetInfo.swift; sourceTree = "<group>"; };
+		8E9DC82D29902E4900E23CCA /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		8E9DC82F29902F3200E23CCA /* ImgStadium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgStadium.swift; sourceTree = "<group>"; };
+		8E9DC83229903CC100E23CCA /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +106,7 @@
 		8E9DC7CC29900B7700E23CCA = {
 			isa = PBXGroup;
 			children = (
+				8E9DC83229903CC100E23CCA /* Settings.bundle */,
 				8E9DC7D729900B7700E23CCA /* JMaps */,
 				8E9DC7E829900B7900E23CCA /* JMapsTests */,
 				8E9DC7F229900B7900E23CCA /* JMapsUITests */,
@@ -95,7 +128,13 @@
 			isa = PBXGroup;
 			children = (
 				8E9DC7D829900B7700E23CCA /* JMapsApp.swift */,
-				8E9DC7DA29900B7700E23CCA /* ContentView.swift */,
+				8E9DC81329900FD500E23CCA /* Features */,
+				8E9DC8172990102500E23CCA /* Model */,
+				8E9DC80429900EBA00E23CCA /* Services */,
+				8E9DC8272990139000E23CCA /* Control */,
+				8E9DC82C29902E0700E23CCA /* Style */,
+				8E9DC824299011F200E23CCA /* Extension */,
+				8E9DC80529900ECF00E23CCA /* UIKit */,
 				8E9DC7DC29900B7900E23CCA /* Assets.xcassets */,
 				8E9DC7DE29900B7900E23CCA /* Preview Content */,
 			);
@@ -125,6 +164,87 @@
 				8E9DC7F529900B7900E23CCA /* JMapsUITestsLaunchTests.swift */,
 			);
 			path = JMapsUITests;
+			sourceTree = "<group>";
+		};
+		8E9DC80429900EBA00E23CCA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8E9DC80229900EA900E23CCA /* NetworkService.swift */,
+				8E9DC80829900F1600E23CCA /* LocationViewModel.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8E9DC80529900ECF00E23CCA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8E9DC80629900EDC00E23CCA /* UISheetPresentation.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		8E9DC81329900FD500E23CCA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8E9DC81F2990111F00E23CCA /* Main */,
+				8E9DC81429900FDF00E23CCA /* Maps */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		8E9DC81429900FDF00E23CCA /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				8E9DC81029900F9A00E23CCA /* MapView.swift */,
+				8E9DC8182990104400E23CCA /* PlaceAnnotationView.swift */,
+				8E9DC82A299021E400E23CCA /* SheetInfo.swift */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		8E9DC8172990102500E23CCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E9DC8152990100400E23CCA /* Maps.swift */,
+				8E9DC81B299010B700E23CCA /* Item.swift */,
+				8E9DC81D299010CB00E23CCA /* DataExample.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8E9DC81F2990111F00E23CCA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8E9DC7DA29900B7700E23CCA /* MainView.swift */,
+				8E9DC8202990113D00E23CCA /* MainVM.swift */,
+				8E9DC8222990118F00E23CCA /* ItemView.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8E9DC824299011F200E23CCA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8E9DC8252990122000E23CCA /* ViewExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		8E9DC8272990139000E23CCA /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				8E9DC828299013A800E23CCA /* CustomNavigation.swift */,
+				8E9DC82F29902F3200E23CCA /* ImgStadium.swift */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		8E9DC82C29902E0700E23CCA /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				8E9DC82D29902E4900E23CCA /* TextStyle.swift */,
+			);
+			name = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E9DC7E029900B7900E23CCA /* Preview Assets.xcassets in Resources */,
+				8E9DC83329903CC100E23CCA /* Settings.bundle in Resources */,
 				8E9DC7DD29900B7900E23CCA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +378,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E9DC7DB29900B7700E23CCA /* ContentView.swift in Sources */,
+				8E9DC82E29902E4900E23CCA /* TextStyle.swift in Sources */,
+				8E9DC81E299010CB00E23CCA /* DataExample.swift in Sources */,
+				8E9DC8162990100400E23CCA /* Maps.swift in Sources */,
+				8E9DC81C299010B700E23CCA /* Item.swift in Sources */,
+				8E9DC7DB29900B7700E23CCA /* MainView.swift in Sources */,
+				8E9DC81129900F9A00E23CCA /* MapView.swift in Sources */,
+				8E9DC80329900EA900E23CCA /* NetworkService.swift in Sources */,
 				8E9DC7D929900B7700E23CCA /* JMapsApp.swift in Sources */,
+				8E9DC829299013A800E23CCA /* CustomNavigation.swift in Sources */,
+				8E9DC8232990118F00E23CCA /* ItemView.swift in Sources */,
+				8E9DC8212990113D00E23CCA /* MainVM.swift in Sources */,
+				8E9DC83029902F3200E23CCA /* ImgStadium.swift in Sources */,
+				8E9DC80929900F1600E23CCA /* LocationViewModel.swift in Sources */,
+				8E9DC80729900EDC00E23CCA /* UISheetPresentation.swift in Sources */,
+				8E9DC82B299021E400E23CCA /* SheetInfo.swift in Sources */,
+				8E9DC8192990104400E23CCA /* PlaceAnnotationView.swift in Sources */,
+				8E9DC8262990122000E23CCA /* ViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +556,13 @@
 				DEVELOPMENT_TEAM = 7679YM76FM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Es necesario obtener la ubicación ...";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,6 +570,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.jorgemht.JMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,11 +590,13 @@
 				DEVELOPMENT_TEAM = 7679YM76FM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Es necesario obtener la ubicación ...";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,6 +604,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.jorgemht.JMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
