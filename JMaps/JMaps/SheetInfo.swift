@@ -18,6 +18,7 @@ struct SheetInfo: View {
                 Label(item.title, systemImage: "sportscourt")
                     .nameStadiumTextStyle()
                     .frame(height: 50)
+                    .accessibilityIdentifier("titleSheet")
                 
             }
             .padding()

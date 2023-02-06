@@ -13,13 +13,17 @@ struct MainView: View {
                             ItemView(item: item)
                         }
                         .listRowSeparator(.hidden)
+                        .accessibilityIdentifier("lista")
+                        
                     } else {
                         NavigationLink(destination: MessageView(item: item)) {
                             ItemView(item: item)
                         }
                         .listRowSeparator(.hidden)
+                        .accessibilityIdentifier("lista")
                     }
                 }
+                
             }
             .navDestination(with: Item.self) { item in
                 if #available(iOS 16.0, *) {
@@ -27,6 +31,7 @@ struct MainView: View {
                 }
             }
             .listStyle(.plain)
+            .accessibility(identifier: "lista")
             .navigationTitle("Estadios de fútbol")
         }
     }

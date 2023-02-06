@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E2DB6CE2991136F0051F5E3 /* MainFailureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DB6CD2991136F0051F5E3 /* MainFailureUITests.swift */; };
+		8E2DB6D0299119760051F5E3 /* MainUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DB6CF299119760051F5E3 /* MainUITest.swift */; };
 		8E9DC7D929900B7700E23CCA /* JMapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7D829900B7700E23CCA /* JMapsApp.swift */; };
 		8E9DC7DB29900B7700E23CCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7DA29900B7700E23CCA /* MainView.swift */; };
 		8E9DC7DD29900B7900E23CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DC7DC29900B7900E23CCA /* Assets.xcassets */; };
 		8E9DC7E029900B7900E23CCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DC7DF29900B7900E23CCA /* Preview Assets.xcassets */; };
 		8E9DC7EA29900B7900E23CCA /* JMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7E929900B7900E23CCA /* JMapsTests.swift */; };
-		8E9DC7F429900B7900E23CCA /* JMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7F329900B7900E23CCA /* JMapsUITests.swift */; };
 		8E9DC7F629900B7900E23CCA /* JMapsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7F529900B7900E23CCA /* JMapsUITestsLaunchTests.swift */; };
 		8E9DC80329900EA900E23CCA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC80229900EA900E23CCA /* NetworkService.swift */; };
 		8E9DC80729900EDC00E23CCA /* UISheetPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC80629900EDC00E23CCA /* UISheetPresentation.swift */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E2DB6CD2991136F0051F5E3 /* MainFailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFailureUITests.swift; sourceTree = "<group>"; };
+		8E2DB6CF299119760051F5E3 /* MainUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUITest.swift; sourceTree = "<group>"; };
 		8E9DC7D529900B7700E23CCA /* JMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9DC7D829900B7700E23CCA /* JMapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMapsApp.swift; sourceTree = "<group>"; };
 		8E9DC7DA29900B7700E23CCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -58,7 +61,6 @@
 		8E9DC7E529900B7900E23CCA /* JMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9DC7E929900B7900E23CCA /* JMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMapsTests.swift; sourceTree = "<group>"; };
 		8E9DC7EF29900B7900E23CCA /* JMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E9DC7F329900B7900E23CCA /* JMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMapsUITests.swift; sourceTree = "<group>"; };
 		8E9DC7F529900B7900E23CCA /* JMapsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMapsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8E9DC80229900EA900E23CCA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		8E9DC80629900EDC00E23CCA /* UISheetPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISheetPresentation.swift; sourceTree = "<group>"; };
@@ -103,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E2DB6CA299113320051F5E3 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				8E2DB6CF299119760051F5E3 /* MainUITest.swift */,
+				8E2DB6CD2991136F0051F5E3 /* MainFailureUITests.swift */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
 		8E9DC7CC29900B7700E23CCA = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +171,7 @@
 		8E9DC7F229900B7900E23CCA /* JMapsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8E9DC7F329900B7900E23CCA /* JMapsUITests.swift */,
+				8E2DB6CA299113320051F5E3 /* MainView */,
 				8E9DC7F529900B7900E23CCA /* JMapsUITestsLaunchTests.swift */,
 			);
 			path = JMapsUITests;
@@ -410,8 +421,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2DB6D0299119760051F5E3 /* MainUITest.swift in Sources */,
 				8E9DC7F629900B7900E23CCA /* JMapsUITestsLaunchTests.swift in Sources */,
-				8E9DC7F429900B7900E23CCA /* JMapsUITests.swift in Sources */,
+				8E2DB6CE2991136F0051F5E3 /* MainFailureUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
