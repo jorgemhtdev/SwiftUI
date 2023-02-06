@@ -13,26 +13,24 @@ struct MainView: View {
                             ItemView(item: item)
                         }
                         .listRowSeparator(.hidden)
-                        .accessibilityIdentifier("lista")
                         
                     } else {
-                        NavigationLink(destination: MessageView(item: item)) {
-                            ItemView(item: item)
+                        NavigationLink(destination: MapView(item: item)) {
+                            MapView(item: item)
                         }
                         .listRowSeparator(.hidden)
-                        .accessibilityIdentifier("lista")
                     }
                 }
                 
             }
             .navDestination(with: Item.self) { item in
                 if #available(iOS 16.0, *) {
-                    MessageView(item: item)
+                    MapView(item: item)
                 }
             }
             .listStyle(.plain)
             .accessibility(identifier: "lista")
-            .navigationTitle("Estadios de fútbol")
+            .navigationTitle("main-view-title")
         }
     }
 }

@@ -34,7 +34,7 @@ struct PlaceAnnotationView: View {
 
 struct PlaceAnnotationView_Previews: PreviewProvider {
     static var previews: some View {
-        PlaceAnnotationView(title: "String", showColorItem: false)
+        PlaceAnnotationView(title: "Liga de Fútbol Profesional (LFP)", showColorItem: false)
             .fixedSize()
     }
 }

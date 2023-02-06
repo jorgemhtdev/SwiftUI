@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8E2DB6CE2991136F0051F5E3 /* MainFailureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DB6CD2991136F0051F5E3 /* MainFailureUITests.swift */; };
 		8E2DB6D0299119760051F5E3 /* MainUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DB6CF299119760051F5E3 /* MainUITest.swift */; };
+		8E2DB6D22991253A0051F5E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DB6D12991253A0051F5E3 /* Localizable.strings */; };
 		8E9DC7D929900B7700E23CCA /* JMapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7D829900B7700E23CCA /* JMapsApp.swift */; };
 		8E9DC7DB29900B7700E23CCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DC7DA29900B7700E23CCA /* MainView.swift */; };
 		8E9DC7DD29900B7900E23CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9DC7DC29900B7900E23CCA /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		8E2DB6CD2991136F0051F5E3 /* MainFailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFailureUITests.swift; sourceTree = "<group>"; };
 		8E2DB6CF299119760051F5E3 /* MainUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUITest.swift; sourceTree = "<group>"; };
+		8E2DB6D12991253A0051F5E3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		8E9DC7D529900B7700E23CCA /* JMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9DC7D829900B7700E23CCA /* JMapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMapsApp.swift; sourceTree = "<group>"; };
 		8E9DC7DA29900B7700E23CCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -117,7 +119,6 @@
 		8E9DC7CC29900B7700E23CCA = {
 			isa = PBXGroup;
 			children = (
-				8E9DC83229903CC100E23CCA /* Settings.bundle */,
 				8E9DC7D729900B7700E23CCA /* JMaps */,
 				8E9DC7E829900B7900E23CCA /* JMapsTests */,
 				8E9DC7F229900B7900E23CCA /* JMapsUITests */,
@@ -147,6 +148,8 @@
 				8E9DC824299011F200E23CCA /* Extension */,
 				8E9DC80529900ECF00E23CCA /* UIKit */,
 				8E9DC7DC29900B7900E23CCA /* Assets.xcassets */,
+				8E2DB6D12991253A0051F5E3 /* Localizable.strings */,
+				8E9DC83229903CC100E23CCA /* Settings.bundle */,
 				8E9DC7DE29900B7900E23CCA /* Preview Content */,
 			);
 			path = JMaps;
@@ -363,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E9DC7E029900B7900E23CCA /* Preview Assets.xcassets in Resources */,
+				8E2DB6D22991253A0051F5E3 /* Localizable.strings in Resources */,
 				8E9DC83329903CC100E23CCA /* Settings.bundle in Resources */,
 				8E9DC7DD29900B7900E23CCA /* Assets.xcassets in Resources */,
 			);

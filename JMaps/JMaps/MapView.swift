@@ -1,7 +1,7 @@
 import SwiftUI
 import MapKit
 
-struct MessageView: View {
+struct MapView: View {
     
     @Environment(\.colorScheme) var colorScheme
     
@@ -30,7 +30,7 @@ struct MessageView: View {
                 showsUserLocation: true,
                 annotationItems: annotationItems) { mapPin in
                 MapAnnotation(coordinate: mapPin.coordinate) {
-                    PlaceAnnotationView(title: mapPin.showItemText ? item.title : "Liga de Fútbol Profesional (LFP)", showColorItem: mapPin.showItemText)
+                    PlaceAnnotationView(title: mapPin.showItemText ? item.title : "map-view-annotation-view", showColorItem: mapPin.showItemText)
                 }
             }.ignoresSafeArea()
             
@@ -40,7 +40,7 @@ struct MessageView: View {
                     
                     if !location.userHasLocation {
                         VStack {
-                            Link("Cambiar el permiso de ubicación para obtener la ubicación", destination: URL(string: UIApplication.openSettingsURLString)!)
+                            Link("map-view-permisos-ubc", destination: URL(string: UIApplication.openSettingsURLString)!)
                                 .font(.title)
                                 .foregroundColor(colorScheme == .dark ? .black : .white)
                                 .padding(8)
@@ -76,6 +76,6 @@ struct MessageView: View {
 
 struct MessageView_Previews: PreviewProvider {
     static var previews: some View {
-        MessageView(item: itemData)
+        MapView(item: itemData)
     }
 }
