@@ -9,9 +9,8 @@ public class MainVM : ObservableObject {
     }
     
     func fetchData() {
-        let url = URL(string: "https://sergiocasero.es/pois.json")!
         
-        get(url: url, type: ListItem.self, onSuccess: { data in
+        get(url: EndPoint.pois, type: ListItem.self, onSuccess: { data in
             self.navigationItem = data.list
         }, onFailure: { error in
             print(error)
